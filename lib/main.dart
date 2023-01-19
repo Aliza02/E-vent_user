@@ -1,4 +1,5 @@
 import 'package:event_user/screens/onboard.dart';
+import 'package:event_user/screens/signin.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: onboard(),
+      home: signin(),
     );
   }
 }
