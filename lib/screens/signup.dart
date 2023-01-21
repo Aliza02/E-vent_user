@@ -1,3 +1,4 @@
+import 'package:event_user/constants/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -42,7 +43,7 @@ class _signupState extends State<signup> {
               child: Text(
                 'Create Account',
                 style: TextStyle(
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                   fontSize: width * 0.1,
                   fontWeight: FontWeight.bold,
                 ),
@@ -97,7 +98,7 @@ class _signupState extends State<signup> {
                 style: TextStyle(
                   fontSize: width * 0.04,
                   color: Colors.grey,
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                 ),
               ),
             ),
@@ -120,7 +121,7 @@ class _signupState extends State<signup> {
                     style: TextStyle(
                       fontSize: width * 0.04,
                       color: Color(0xFFFABA4A4),
-                      fontFamily: 'averia',
+                      fontFamily: constant.font,
                     ),
                   ),
                   TextButton(
@@ -130,7 +131,7 @@ class _signupState extends State<signup> {
                       style: TextStyle(
                         fontSize: width * 0.04,
                         color: Color(0xFFFF57366),
-                        fontFamily: 'averia',
+                        fontFamily: constant.font,
                       ),
                     ),
                   ),

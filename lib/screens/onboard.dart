@@ -1,3 +1,4 @@
+import 'package:event_user/constants/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -99,7 +100,7 @@ class _onboardState extends State<onboard> {
                                   'Skip',
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontFamily: 'averia',
+                                    fontFamily: constant.font,
                                     fontSize: width * 0.05,
                                   ),
                                 ),
@@ -129,7 +130,7 @@ class _onboardState extends State<onboard> {
                         color: Colors.white,
                         fontSize: width * 0.08,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'averia',
+                        fontFamily: constant.font,
                       ),
                     ),
                   ),
@@ -143,7 +144,7 @@ class _onboardState extends State<onboard> {
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: width * 0.05,
-                        fontFamily: 'averia',
+                        fontFamily: constant.font,
                       ),
                     ),
                   ),
@@ -165,7 +166,7 @@ class _onboardState extends State<onboard> {
                               'Plan Your First Event',
                               style: TextStyle(
                                 color: Colors.black,
-                                fontFamily: 'averia',
+                                fontFamily: constant.font,
                                 fontWeight: FontWeight.bold,
                                 fontSize: width * 0.05,
                               ),

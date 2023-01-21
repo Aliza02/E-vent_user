@@ -40,7 +40,7 @@ class _signinState extends State<signin> {
               child: Text(
                 'Sign in',
                 style: TextStyle(
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                   fontSize: width * 0.1,
                   fontWeight: FontWeight.bold,
                 ),
@@ -56,7 +56,7 @@ class _signinState extends State<signin> {
                   color: Colors.grey,
                   fontWeight: FontWeight.bold,
                   fontSize: width * 0.058,
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                 ),
               ),
             ),
@@ -82,7 +82,7 @@ class _signinState extends State<signin> {
               child: Text(
                 'Forgot Password?',
                 style: TextStyle(
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                   fontSize: width * 0.04,
                   color: Colors.grey,
                 ),
@@ -105,7 +105,7 @@ class _signinState extends State<signin> {
                 style: TextStyle(
                   fontSize: width * 0.04,
                   color: Colors.grey,
-                  fontFamily: 'averia',
+                  fontFamily: constant.font,
                 ),
               ),
             ),
@@ -127,7 +127,7 @@ class _signinState extends State<signin> {
                     style: TextStyle(
                       fontSize: width * 0.04,
                       color: Color(0xFFFABA4A4),
-                      fontFamily: 'averia',
+                      fontFamily: constant.font,
                     ),
                   ),
                   TextButton(
@@ -137,7 +137,7 @@ class _signinState extends State<signin> {
                       style: TextStyle(
                         fontSize: width * 0.04,
                         color: Color(0xFFFF57366),
-                        fontFamily: 'averia',
+                        fontFamily: constant.font,
                       ),
                     ),
                   ),
