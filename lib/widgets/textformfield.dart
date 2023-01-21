@@ -1,3 +1,4 @@
+import 'package:event_user/constants/constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -15,15 +16,17 @@ class textformfield extends StatefulWidget {
 class _textformfieldState extends State<textformfield> {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return TextFormField(
-      // controller: widget.textcontroller,
+      controller: widget.textcontroller,
       decoration: InputDecoration(
         fillColor: Colors.white,
         filled: true,
         hintText: widget.title,
         hintStyle: TextStyle(
           color: Colors.grey,
-          fontFamily: 'averia',
+          fontFamily: constant.font,
+          fontSize: width * 0.045,
         ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(10),

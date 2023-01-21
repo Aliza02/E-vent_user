@@ -1,3 +1,4 @@
+import 'package:event_user/constants/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -28,7 +29,7 @@ class GoogleButton extends StatelessWidget {
             name,
             style: TextStyle(
               fontSize: width * 0.058,
-              fontFamily: 'averia',
+              fontFamily: constant.font,
               fontWeight: FontWeight.bold,
             ),
           ),
