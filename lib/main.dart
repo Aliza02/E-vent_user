@@ -14,9 +14,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      home: signup(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter Demo',
+        initialRoute: '/onboard',
+        routes: {
+          '/onboard': (context) => onboard(),
+          '/signup': (context) => signup(),
+          '/signin': (context) => signin(),
+        });
   }
 }
